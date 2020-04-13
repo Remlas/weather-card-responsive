@@ -1,3 +1,18 @@
+## How is it "responsive"?
+
+I only added few css @media queries to hide card title in several screen widths. 
+Adjusted for word "Gdańsk" and tested on devices: Xiaomi Mi A2 (standard font and UI sizes), Samsung Galaxy S8 (with UI size: smaller), Chrome OS tablet (1280x800px screen) and desktop (2K display, 100% zoom / scaling).
+
+## How to install this modified version?
+
+1. Remove orginal weather-card from HACS plugins (configuration in lovelace.config can be left unmodified).
+2. Go to HACS Settings Tab, add following url in "ADD CUSTOM REPOSITORY" field:
+```
+https://github.com/Remlas/weather-card-responsive
+```
+select "Plugin" categoruy and click save.
+3. Install as any HACS Plugin.
+
 # Lovelace animated weather card
 
 Originally created for the [old UI](https://community.home-assistant.io/t/custom-ui-weather-state-card-with-a-question/23008) converted by @arsaboo and @ciotlosm to [Lovelace](https://community.home-assistant.io/t/custom-ui-weather-state-card-with-a-question/23008/291) and now converted to Lit to make it even better.

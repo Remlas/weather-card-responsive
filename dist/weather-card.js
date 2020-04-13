@@ -477,6 +477,20 @@ class WeatherCard extends LitElement {
         word-wrap: break-word;
         width: 30%;
       }
+      @media (min-width: 900px) and (max-width: 1550px) {
+        .title {
+          font-size: 0!important;
+        }
+      }
+      @media (min-width: 600px) and (max-width: 830px) {
+        .title {
+          font-size: 0!important;
+        }
+      }
+      @media (max-width: 410px) {
+        .title {
+          font-size: 0!important;
+      }
     `;
   }
 }
